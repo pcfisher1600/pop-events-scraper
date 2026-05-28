@@ -1,0 +1,38 @@
+name: Scrape OKC events
+
+on:
+  schedule:
+    # Bi-weekly: 1st and 15th of each month at 09:00 UTC (~3–4 AM Central).
+    - cron: "0 9 1,15 * *"
+  workflow_dispatch: {}   # manual "Run workflow" button for urgent refreshes
+
+permissions:
+  contents: write          # allow the action to commit events.json
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install deps
+        run: pip install -r requirements.txt
+
+      - name: Run scraper
+        run: python3 scrape.py
+
+      - name: Commit updated events.json
+        run: |
+          git config user.name  "pop-events-bot"
+          git config user.email "bot@users.noreply.github.com"
+          if git diff --quiet events.json; then
+            echo "No changes to events.json"
+          else
+            git add events.json
+            git commit -m "chore: refresh events.json ($(date -u +%Y-%m-%d))"
+            git push
+          fi
