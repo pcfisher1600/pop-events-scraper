@@ -16,10 +16,11 @@ import sys
 import json
 import datetime as dt
 
-from sources import science_museum
-# Future sources get appended here as they're built (Phase A step 5+).
+from sources import science_museum, scissortail_park, myriad_gardens
 SOURCES = [
     science_museum,
+    scissortail_park,
+    myriad_gardens,
 ]
 
 OUTPUT = "events.json"
