@@ -16,11 +16,17 @@ import sys
 import json
 import datetime as dt
 
-from sources import science_museum, scissortail_park, myriad_gardens
+from sources import (
+    science_museum,
+    scissortail_park,
+    myriad_gardens,
+    visit_okc,
+)
 SOURCES = [
     science_museum,
     scissortail_park,
     myriad_gardens,
+    visit_okc,
 ]
 
 OUTPUT = "events.json"

@@ -24,6 +24,7 @@ Point the app's `AroundTownService` at that once this repo is pushed to GitHub.
 | Science Museum Oklahoma | The Events Calendar REST API | ✅ live |
 | Scissortail Park | MEC JSON-LD on the listing page (1 request, date-level) | ✅ live |
 | Myriad Botanical Gardens | WP REST `mec-events` list → per-event detail-page JSON-LD (real times) | ✅ live |
+| VisitOKC (metro aggregator) | RSS feed (`/event/rss/`) → per-event detail-page JSON-LD (dates + venue + geo) | ✅ live |
 
 ## Run locally
 
