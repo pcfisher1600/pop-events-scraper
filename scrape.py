@@ -21,12 +21,16 @@ from sources import (
     scissortail_park,
     myriad_gardens,
     visit_okc,
+    oklahoma_contemporary,
+    national_cowboy,
 )
 SOURCES = [
     science_museum,
     scissortail_park,
     myriad_gardens,
     visit_okc,
+    oklahoma_contemporary,
+    national_cowboy,
 ]
 
 OUTPUT = "events.json"
