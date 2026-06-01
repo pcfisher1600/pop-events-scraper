@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-06-01T08:59:51Z",
+  "generatedAt": "2026-06-01T09:07:28Z",
   "sourceCount": 6,
-  "eventCount": 81,
+  "eventCount": 79,
   "events": [
     {
       "id": "vokc-29878",
@@ -439,21 +439,6 @@
       "cost": ""
     },
     {
-      "id": "stp-zumba-class-2-2026-06-06",
-      "source": "Scissortail Park",
-      "sourceURL": "https://www.scissortailpark.org/events/zumba-class-2/",
-      "title": "Zumba Class",
-      "description": "Wellness programs are a cornerstone of Scissortail Park’s mission to enhance the community’s quality of life. Starting this Spring, we offer a FREE weekly Zumba class, Pickleball lessons, and a volunteer-led Walking Club that meets on Thursdays and Sundays. (Updated Pickleball schedule is coming soon) ZUMBA May – June Saturdays | 9-10am Sky Rink Event Pavilion, Upper Park Instructor: Emily Otero | Starting May 2",
-      "startDate": "2026-06-06T00:00:00-05:00",
-      "endDate": "2026-06-06T00:00:00-05:00",
-      "allDay": true,
-      "venueName": "Event Pavilion",
-      "city": "Oklahoma City",
-      "imageURL": "https://i0.wp.com/www.scissortailpark.org/wp-content/uploads/2026/04/INSTAGRAM-SCISSORTAIL-44.png?fit=1080%2C1350&#038;quality=80&#038;ssl=1",
-      "category": "sports",
-      "cost": ""
-    },
-    {
       "id": "stp-farmers-market-at-scissortail-park-2026-06-06",
       "source": "Scissortail Park",
       "sourceURL": "https://www.scissortailpark.org/events/farmers-market-at-scissortail-park/",
@@ -466,6 +451,21 @@
       "city": "Oklahoma City",
       "imageURL": "https://i0.wp.com/www.scissortailpark.org/wp-content/uploads/2026/02/WEBSITE-EVENTS-CALENDAR.png?fit=1280%2C720&#038;quality=80&#038;ssl=1",
       "category": "outdoor",
+      "cost": ""
+    },
+    {
+      "id": "stp-zumba-class-2-2026-06-06",
+      "source": "Scissortail Park",
+      "sourceURL": "https://www.scissortailpark.org/events/zumba-class-2/",
+      "title": "Zumba Class",
+      "description": "Wellness programs are a cornerstone of Scissortail Park’s mission to enhance the community’s quality of life. Starting this Spring, we offer a FREE weekly Zumba class, Pickleball lessons, and a volunteer-led Walking Club that meets on Thursdays and Sundays. (Updated Pickleball schedule is coming soon) ZUMBA May – June Saturdays | 9-10am Sky Rink Event Pavilion, Upper Park Instructor: Emily Otero | Starting May 2",
+      "startDate": "2026-06-06T00:00:00-05:00",
+      "endDate": "2026-06-06T00:00:00-05:00",
+      "allDay": true,
+      "venueName": "Event Pavilion",
+      "city": "Oklahoma City",
+      "imageURL": "https://i0.wp.com/www.scissortailpark.org/wp-content/uploads/2026/04/INSTAGRAM-SCISSORTAIL-44.png?fit=1080%2C1350&#038;quality=80&#038;ssl=1",
+      "category": "sports",
       "cost": ""
     },
     {
@@ -781,36 +781,6 @@
       "city": "Oklahoma City",
       "imageURL": "",
       "category": "art",
-      "cost": ""
-    },
-    {
-      "id": "stp-oklahoma-take-steps-presented-by-flexcare-infusion-center-2026-06-14",
-      "source": "Scissortail Park",
-      "sourceURL": "https://www.scissortailpark.org/events/oklahoma-take-steps-presented-by-flexcare-infusion-center/",
-      "title": "Oklahoma Take Steps Presented By FlexCare Infusion Center",
-      "description": "TAKE STEPS TOWARDS CURES Join the Crohn’s & Colitis Foundation’s largest fundraising event to accelerate breakthroughs in inflammatory bowel disease (IBD) research. At Take Steps, we don’t just walk — we move hope forward. Together, we can build a future where Crohn’s disease and ulcerative colitis no longer steal moments, dreams, or possibilities. Toward better treatments. Toward cures. Let’s Go There.",
-      "startDate": "2026-06-14T00:00:00-05:00",
-      "endDate": "2026-06-14T00:00:00-05:00",
-      "allDay": true,
-      "venueName": "Scissortail Park",
-      "city": "Oklahoma City",
-      "imageURL": "https://i0.wp.com/www.scissortailpark.org/wp-content/uploads/2026/04/take-steps.png?fit=940%2C348&#038;quality=80&#038;ssl=1",
-      "category": "family",
-      "cost": ""
-    },
-    {
-      "id": "stp-oklahoma-take-steps-community-walk-2026-06-14",
-      "source": "Scissortail Park",
-      "sourceURL": "https://www.scissortailpark.org/events/oklahoma-take-steps-community-walk/",
-      "title": "Oklahoma Take Steps Community Walk",
-      "description": "Community Spotlight: Oklahoma Take Steps Join us at Scissortail Park on Sunday, June 14 for Oklahoma Take Steps , a powerful community walk supporting the Crohn’s & Colitis Foundation. This family-friendly event brings together patients, caregivers, and supporters to raise awareness and funds for Crohn’s disease and ulcerative colitis. Whether you walk in honor of a loved one or simply want to support an important cause, everyone is welcome. Let’s come together to make this the largest Oklahoma…",
-      "startDate": "2026-06-14T00:00:00-05:00",
-      "endDate": "2026-06-14T00:00:00-05:00",
-      "allDay": true,
-      "venueName": "Scissortail Park",
-      "city": "Oklahoma City",
-      "imageURL": "https://i0.wp.com/www.scissortailpark.org/wp-content/uploads/2026/01/TS-2026-Social-Media.png?fit=940%2C788&#038;quality=80&#038;ssl=1",
-      "category": "outdoor",
       "cost": ""
     },
     {
